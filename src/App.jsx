@@ -9,19 +9,19 @@ function App() {
     <div className="md:grid md:grid-cols-[2fr_1fr] flex flex-col gap-16 md:gap-y-16 px-4 md:gap-x-6 max-w-[56rem] mx-auto py-32 shadow-md rounded-md">
       <div>
         <Category title={"Egor Apimakhovich"} />
-        <p className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+        <p className="mb-2 text-lg font-semibold text-gray-900">
           Software Engineer
         </p>
       </div>
       <div>
         <Category title={"Location"} />
-        <p className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+        <p className="mb-2 text-lg font-semibold text-gray-900">
           🇧🇾 Belarus
         </p>
       </div>
       <div>
         <Category title={"Experience"} />
-        <p className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        <p className="max-w-md space-y-1 text-gray-500 list-disc list-inside">
           Participating in hackathons and game jams with groupmates. Complete
           the BSU web develepment course.
         </p>
@@ -45,7 +45,7 @@ function App() {
         </div>
         <div>
           <Category title={"Projects"}/>
-          <p className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">Completed BSU web-development course homeworks.</p>
+          <p className="max-w-md space-y-1 text-gray-500 list-disc list-inside">Completed BSU web-development course homeworks.</p>
         </div>
       </div>
     </div>
